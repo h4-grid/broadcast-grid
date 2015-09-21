@@ -2,7 +2,6 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> 
 
 <html class="no-js" lang="en"> <!--<![endif]-->
@@ -16,7 +15,7 @@
 
 	<style>
 
-/** GRID */
+/* light css reset */
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
@@ -56,14 +55,12 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 
-/* =Clearfix by Nicolas Gallagher
--------------------------------------------------------------- */
+/* clearfix */
 .row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
 .row:after,.clearfix:after{clear:both}
 .row,.clearfix{zoom:1}
 
-/* =Gridiculous
--------------------------------------------------------------- */
+/* grid defaults */
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 body{font-size:100%;line-height:1.6875}
 .grid{margin:0 auto;max-width:1200px;width:100%}
@@ -100,30 +97,30 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .s11{margin-left:91.66%}
 .end{float:right!important}
 
-/* =Media query for 960 Screens - sets nested grids to 100%
--------------------------------------------------------------- */
+/* media query for 960px screens - sets nested grids to 100% */
 @media only screen and (max-width:960px){
 .row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{width:100%;margin-bottom:20px}
 .row .row > div:last-child{margin-bottom:0 !important}
 }
 
-/* =Media query for iPad and tablets
--------------------------------------------------------------- */
+/* media query for tablets */
 @media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
 body{font-size:90%}
 .row{margin-bottom:0!important}
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{width:100%;margin-right:0;margin-left:0;margin-bottom:20px}
 }
 
+/* added for styling to demo document */
+
 div{
 	border:1px solid #000000;
 	border-radius:2px;
 }
 
-
 	</style>
-
+	
 </head>
+
 <body>
 	<div id="site-container" class="grid">
 

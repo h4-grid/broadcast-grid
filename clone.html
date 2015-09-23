@@ -11,6 +11,7 @@
 <style>
 
 /* light css reset */
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -48,11 +49,15 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
+
 /* clearfix */
+
 .row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
 .row:after,.clearfix:after{clear:both}
 .row,.clearfix{zoom:1}
+
 /* grid defaults */
+
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 body{font-size:100%;line-height:1.6875}
 .grid{margin:0 auto;max-width:1200px;width:100%}
@@ -88,18 +93,23 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .s10{margin-left:83.33%}
 .s11{margin-left:91.66%}
 .end{float:right!important}
+
 /* media query for 960px screens - sets nested grids to 100% */
+
 @media only screen and (max-width:960px){
 .row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{width:100%;margin-bottom:20px}
 .row .row > div:last-child{margin-bottom:0 !important}
 }
 /* media query for tablets */
+
 @media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
 body{font-size:90%}
 .row{margin-bottom:0!important}
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{width:100%;margin-right:0;margin-left:0;margin-bottom:20px}
 }
-/* added for styling to demo document */
+
+/* added for styling to this tegna home page demo */
+
 div{
 	border:1px solid #000000;
 	border-radius:2px;

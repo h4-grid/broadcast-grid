@@ -19,6 +19,14 @@
 * html .group             { zoom: 1; } /* IE6 */
 *:first-child+html .group { zoom: 1; } /* IE7 */
 
+/**most popular clearfix*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /**Grid System*/
 
 .row, 

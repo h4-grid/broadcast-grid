@@ -7,6 +7,18 @@
 
 <style>
 
+/**clearfix */
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
 /**Grid System*/
 
 .row, 

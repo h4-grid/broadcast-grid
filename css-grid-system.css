@@ -1,5 +1,10 @@
 /**GRID*/
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 .row, 
 .column {
     box-sizing: border-box;
